@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h3>Thank you for booking with us</h3>
+    <a href="{% url 'reserve'  %}">Reservations</a>
+    <div>
+
+            <h4> Name :{{ booking.Name|capfirst }}</h4>
+            <h4>Checkin:{{ booking.checkin|capfirst }}</h4>
+            <h4> Checkout: {{ booking.checkout|capfirst }}</h4>
+            <h3>E-mail:{{ booking.email }}</h3>
+            <h3>Room Type: {{ booking.Room_Types|capfirst }} </h3>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block slider %}
+{% endblock %}
+
+{% block gym %}
+{% endblock %}
+
+{% block latest %}
+{% endblock %}
+
+{% block about %}
+		<div id="breadcrumb">
+            <div class="container">
+                <div class="breadcrumb">
+                        <li style="color:red"><a href="{% url 'index' %}" class="active">Home</a></li>
+                        <li style="color:red">Reservations</li>
+                </div>
+            </div>
+        </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <h3 style="text-align:center">Deluxe</h3>
+
+                <img src="/static/images/reservations/r2.jpg" width="300"  height="300" class="img-responsive" />
+
+                <h3 style="text-align:center">Twins</h3>
+                <img src="/static/images/reservations/r3.jpg" width="300"  height="300" class="img-responsive" >
+
+
+            </div>
+
+            <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <h3 style="text-align:center">Standard</h3>
+                <img src="/static/images/reservations/r8.jpg" width="300"  height="300" class="img-responsive" >
+
+                <h3 style="text-align:center">Suit</h3>
+                <img src="/static/images/reservations/s5.jpg" class="img-responsive" width="300"  height="300" />
+
+                <hr style="width: 100%; color: black; height: 1px; background-color:#EEE;" />
+
+                <hr style="width: 100%; color: black; height: 1px; background-color:#EEE;" />
+
+                <hr style="width: 100%; color: black; height: 1px; background-color:#EEE;" />
+
+
+            </div>
+
+
+            <div class="portfolio container">
+            <div class="portfolio-title">
+
+                <h3></h3>
+                <h2></h2>
+                <h2></h2>
+            </div>
+            <div class="row">
+                <div class="work span3">
+                    <h3>Reservations</h3>
+                    <a href="{% url 'create_booking' %}">Click here for Reservation</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+             <div class="col-md-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+
+
+
+
+                            <hr style="width: 100%; color: black; height: 1px; background-color:#EEE;" />
+
+                            <hr style="width: 100%; color: black; height: 1px; background-color:#EEE;" />
+
+
+                            <hr style="width: 100%; color: black; height: 1px; background-color:#FFF;" />
+
+             </div>
+
+        </div>
+
+    </div>
+{% endblock %}
+
