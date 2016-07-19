@@ -72,9 +72,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'tesfuhotel.wsgi.application'
 
 
-CALENDARIUM_SHIFT_WEEKSTART = -1
-
-
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
