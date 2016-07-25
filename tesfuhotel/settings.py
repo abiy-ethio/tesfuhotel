@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -122,21 +123,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT ='staticfiles'
+STATIC_ROOT = os.path.join('tesfuhotel', 'staticfiles')
 
+STATIC_ROOT ='tesfuhotel/booking/STATIC'
 STATICFILES_DIRS =(
     os.path.join(BASE_DIR, 'static'),
 )
 
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-STATIC_URL = '/static/'
-
-# Extra places for collectstatic to find static files.
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
-)
 
 
 
