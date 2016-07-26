@@ -122,16 +122,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT ='staticfiles'
-STATIC_ROOT = os.path.join('tesfuhotel', 'staticfiles')
+STATIC_ROOT = os.path.join('BASE_DIR', 'static', 'static_root')
 
-STATIC_ROOT ='tesfuhotel/booking/STATIC'
 STATICFILES_DIRS =(
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'static_dirs'),
 )
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media'),
 
-
+MEDIA_URL = '/media/'
 
 
 
