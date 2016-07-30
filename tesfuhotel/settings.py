@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'booking',
 ]
 
@@ -54,6 +55,7 @@ MIDDLEWARE_CLASSES = [
 
 ROOT_URLCONF = 'tesfuhotel.urls'
 
+CRISPY_TEMPLATE_PACK = "bootstrap3"
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
