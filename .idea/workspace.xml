@@ -21,12 +21,7 @@
       <change type="NEW" beforePath="" afterPath="C:/herokuW/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="C:/herokuW/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="C:/herokuW/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/templates/base.html" afterPath="$PROJECT_DIR$/booking/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/templates/booking/booking_form.html" afterPath="$PROJECT_DIR$/booking/templates/booking/booking_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/templates/booking/reserve.html" afterPath="$PROJECT_DIR$/booking/templates/booking/reserve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesfuhotel/settings.py" afterPath="$PROJECT_DIR$/tesfuhotel/settings.py" />
     </list>
     <ignored path="tesfuhotel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +65,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/booking/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="89" column="98" selection-start-line="89" selection-start-column="98" selection-end-line="89" selection-end-column="98" />
+            <state relative-caret-position="1100">
+              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -944,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/booking/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="89" column="98" selection-start-line="89" selection-start-column="98" selection-end-line="89" selection-end-column="98" />
+        <state relative-caret-position="1100">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
           <folding />
         </state>
       </provider>
