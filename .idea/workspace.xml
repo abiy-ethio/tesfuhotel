@@ -75,16 +75,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meeting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/templates/booking/meeting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="item_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/booking/templates/booking/item_detail.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,9 +109,16 @@
         <entry file="file://$PROJECT_DIR$/booking/templates/booking/health.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="34" column="102" selection-start-line="34" selection-start-column="102" selection-end-line="34" selection-end-column="102" />
+              <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h4.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking/static/images/Health and wellness/h4.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -383,13 +380,14 @@
     <property name="last_opened_file_path" value="C:/herokuW" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tesfuHotelHoreku\tesfuhotel\booking\static\images\Health and wellness" />
+      <recent name="C:\tesfuHotelHoreku\tesfuhotel\booking\static\images\gym" />
+      <recent name="C:\tesfuHotelHoreku\tesfuhotel\booking\static\images\reservations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\tesfuHotelHoreku\tesfuhotel" />
       <recent name="C:\tesfuHotelHoreku\tesfuhotel\tesfuhotel" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\tesfuHotelHoreku\tesfuhotel\booking\static\images\gym" />
-      <recent name="C:\tesfuHotelHoreku\tesfuhotel\booking\static\images\reservations" />
     </key>
   </component>
   <component name="RunManager">
@@ -602,13 +600,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/booking/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/booking/templates/booking/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -930,6 +921,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/booking/static/images/Health and wellness/h4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/booking/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
@@ -941,7 +937,7 @@
     <entry file="file://$PROJECT_DIR$/booking/templates/booking/health.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="34" column="102" selection-start-line="34" selection-start-column="102" selection-end-line="34" selection-end-column="102" />
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
           <folding />
         </state>
       </provider>
